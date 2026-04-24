@@ -15,7 +15,7 @@ const Footer = () => {
               <p className="max-w-2xl text-base leading-7 text-white/70">Talk to our team for home supply, rental units, schools, farms, and business installations across Kenya.</p>
             </div>
             <div className="grid gap-3 sm:grid-cols-2">
-              <a className="cta-primary inline-flex items-center justify-center gap-2" href="https://wa.me/254750600235" rel="noopener noreferrer" target="_blank">
+              <a className="cta-primary inline-flex items-center justify-center gap-2" href="https://wa.me/254750600235?text=Hello%20Roto%20Tanks%20Kenya%2C%20I%20am%20interested%20in%20buying%20a%20water%20tank.%20Please%20assist%20me%20with%20pricing%20and%20delivery%20details." rel="noopener noreferrer" target="_blank">
                 <svg className="lucide lucide-message-circle h-4 w-4" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
                 </svg>Order on WhatsApp
@@ -92,7 +92,7 @@ const Footer = () => {
       </div>
       
       {/* Floating WhatsApp Button */}
-      <a aria-label="Chat on WhatsApp" className="fixed bottom-5 right-4 z-50 hidden items-center gap-3 rounded-full border border-[#25D366]/25 bg-[#25D366] px-4 py-3 text-sm font-semibold text-white shadow-[0_24px_70px_-30px_rgba(37,211,102,0.9)] transition duration-300 hover:-translate-y-0.5 hover:brightness-105 md:inline-flex md:bottom-6 md:right-6" href="https://wa.me/254750600235" rel="noopener noreferrer" target="_blank">
+      <a aria-label="Chat on WhatsApp" className="fixed bottom-5 right-4 z-50 hidden items-center gap-3 rounded-full border border-[#25D366]/25 bg-[#25D366] px-4 py-3 text-sm font-semibold text-white shadow-[0_24px_70px_-30px_rgba(37,211,102,0.9)] transition duration-300 hover:-translate-y-0.5 hover:brightness-105 md:inline-flex md:bottom-6 md:right-6" href="https://wa.me/254750600235?text=Hello%20Roto%20Tanks%20Kenya%2C%20I%20am%20interested%20in%20buying%20a%20water%20tank.%20Please%20assist%20me%20with%20pricing%20and%20delivery%20details." rel="noopener noreferrer" target="_blank">
         <span className="flex h-9 w-9 items-center justify-center rounded-full bg-white/20">
           <svg className="lucide lucide-message-circle h-5 w-5" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
             <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
@@ -113,7 +113,7 @@ const Footer = () => {
           </span>
           <span>Call</span>
         </a>
-        <a className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-4 py-3 text-sm font-semibold text-white shadow-[0_24px_55px_-22px_rgba(37,211,102,0.85)] transition duration-300 hover:-translate-y-0.5 hover:brightness-105" href="https://wa.me/254750600235" rel="noopener noreferrer" target="_blank">
+        <a className="inline-flex items-center gap-2 rounded-full bg-[#25D366] px-4 py-3 text-sm font-semibold text-white shadow-[0_24px_55px_-22px_rgba(37,211,102,0.85)] transition duration-300 hover:-translate-y-0.5 hover:brightness-105" href="https://wa.me/254750600235?text=Hello%20Roto%20Tanks%20Kenya%2C%20I%20am%20interested%20in%20buying%20a%20water%20tank.%20Please%20assist%20me%20with%20pricing%20and%20delivery%20details." rel="noopener noreferrer" target="_blank">
           <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white/20">
             <svg className="lucide lucide-message-circle h-4 w-4" fill="none" height="24" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
               <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>

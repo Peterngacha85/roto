@@ -45,7 +45,7 @@ const Contact = () => {
                   <p className="max-w-2xl text-base leading-7 text-white/70 sm:text-lg">The contact page is now designed like a proper conversion page, with clear channels, stronger trust cues, and a direct WhatsApp handoff.</p>
                 </div>
                 <div className="flex flex-col gap-3 sm:flex-row">
-                  <a href="https://wa.me/254750600235" target="_blank" rel="noopener noreferrer" className="cta-primary inline-flex items-center justify-center gap-2">
+                  <a href="https://wa.me/254750600235?text=Hello%20Roto%20Tanks%20Kenya%2C%20I%20am%20interested%20in%20buying%20a%20water%20tank.%20Please%20assist%20me%20with%20pricing%20and%20delivery%20details." target="_blank" rel="noopener noreferrer" className="cta-primary inline-flex items-center justify-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-message-circle h-4 w-4"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
                     Ask on WhatsApp
                   </a>
@@ -119,7 +119,7 @@ const Contact = () => {
                       <div className="mt-1 text-sm font-medium text-white/80">+254 750 600235</div>
                     </div>
                   </a>
-                  <a href="https://wa.me/254750600235" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 rounded-[24px] border border-white/10 bg-white/10 px-4 py-4 text-white transition-colors hover:bg-white/20">
+                  <a href="https://wa.me/254750600235?text=Hello%20Roto%20Tanks%20Kenya%2C%20I%20am%20interested%20in%20buying%20a%20water%20tank.%20Please%20assist%20me%20with%20pricing%20and%20delivery%20details." target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 rounded-[24px] border border-white/10 bg-white/10 px-4 py-4 text-white transition-colors hover:bg-white/20">
                     <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/10 text-accent">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-message-circle h-5 w-5"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
                     </div>
