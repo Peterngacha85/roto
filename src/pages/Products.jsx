@@ -10,7 +10,8 @@ const Products = () => {
     { size: "4,000L", price: "22,000", desc: "Strong mid-size solution for homes and farms", tags: ["Farm use", "Mid-size"] },
     { size: "5,000L", price: "27,500", desc: "Commercial grade for schools and farms", tags: ["School use", "Farm supply"] },
     { size: "10,000L", price: "49,500", desc: "Industrial capacity for large-scale needs", tags: ["Industrial", "Large project"] },
-    { size: "20,000L", price: "99,000", desc: "Maximum capacity for major institutions", tags: ["Major project", "Maximum storage"] },
+    { size: "20,000L", price: "120,000", desc: "Maximum capacity for major institutions", tags: ["Major project", "Maximum storage"] },
+    { size: "Underground Tank 3,000L", price: "106,000", desc: "Durable underground tank ideal for concealed storage in homes and commercial sites", tags: ["Underground", "Concealed", "3,000L"], image: "/assets/underground tank.jpeg", badge: "Underground" },
   ];
 
   return (
@@ -25,6 +26,9 @@ const Products = () => {
         {products.map((product, idx) => (
           <article key={idx} className="dark-panel relative overflow-hidden px-6 py-8 flex flex-col h-full rounded-[34px]">
             <div className="absolute -right-6 top-0 h-24 w-24 rounded-full bg-accent/10 blur-3xl"></div>
+            {product.badge && (
+              <div className="absolute top-4 left-4 z-10 rounded-full bg-accent px-3 py-1 text-[10px] font-bold uppercase tracking-[0.22em] text-white shadow-md">{product.badge}</div>
+            )}
             <div className="relative flex flex-col h-full">
               <div className="flex items-start justify-between gap-4">
                 <h3 className="text-4xl font-display font-semibold text-white">{product.size}</h3>
@@ -35,7 +39,7 @@ const Products = () => {
               </div>
               
               <div className="mt-6 flex flex-col sm:flex-row flex-1 items-center gap-4 rounded-[26px] border border-white/10 bg-white/10 p-5">
-                <img alt={`${product.size} tank`} className="h-24 sm:h-28 w-auto object-contain drop-shadow-xl" src="/assets/hero-tank-BGNsYmIM.png" />
+                <img alt={`${product.size} tank`} className="h-24 sm:h-28 w-auto object-contain drop-shadow-xl" src={product.image || "/assets/hero-tank-BGNsYmIM.png"} />
                 <div className="text-center sm:text-left">
                   <p className="text-sm leading-6 text-white/70">{product.desc}</p>
                   <div className="mt-3 flex flex-wrap justify-center sm:justify-start gap-2">
