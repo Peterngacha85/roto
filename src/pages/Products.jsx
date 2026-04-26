@@ -11,7 +11,7 @@ const Products = () => {
     { size: "5,000L", price: "27,500", desc: "Commercial grade for schools and farms", tags: ["School use", "Farm supply"] },
     { size: "10,000L", price: "49,500", desc: "Industrial capacity for large-scale needs", tags: ["Industrial", "Large project"] },
     { size: "20,000L", price: "120,000", desc: "Maximum capacity for major institutions", tags: ["Major project", "Maximum storage"] },
-    { size: "Underground Tank 3,000L", price: "106,000", desc: "Durable underground tank ideal for concealed storage in homes and commercial sites", tags: ["Underground", "Concealed", "3,000L"], image: "/assets/underground tank.jpeg", badge: "Underground" },
+    { size: "3,000L", price: "106,000", desc: "Durable underground tank ideal for concealed storage in homes and commercial sites", tags: ["Underground", "Concealed", "3,000L"], image: "/assets/underground tank.jpeg", badge: "Underground" },
   ];
 
   return (
