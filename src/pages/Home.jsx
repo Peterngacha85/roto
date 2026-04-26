@@ -27,8 +27,8 @@ const Home = () => {
                     <div className="mt-2 text-4xl font-display font-semibold text-white">KSh 5,500</div>
                   </div>
                   <div className="grid gap-3 sm:max-w-[32rem] sm:grid-cols-2">
-                    <a className="cta-primary inline-flex items-center justify-center gap-2" href="https://wa.me/254750600235?text=Hello%20Roto%20Tanks%20Kenya%2C%20I%20am%20interested%20in%20buying%20a%20water%20tank.%20Please%20assist%20me%20with%20pricing%20and%20delivery%20details." rel="noopener noreferrer" target="_blank">Order on WhatsApp</a>
-                    <a className="inline-flex items-center justify-center gap-2 rounded-full border border-white/10 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white transition duration-300 hover:bg-white/20" href="tel:254750600235">Call now</a>
+                    <a className="cta-primary inline-flex items-center justify-center gap-2" href="https://wa.me/254750007617?text=Hello%20Roto%20Tanks%20Kenya%2C%20I%20am%20interested%20in%20buying%20a%20water%20tank.%20Please%20assist%20me%20with%20pricing%20and%20delivery%20details." rel="noopener noreferrer" target="_blank">Order on WhatsApp</a>
+                    <a className="inline-flex items-center justify-center gap-2 rounded-full border border-white/10 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white transition duration-300 hover:bg-white/20" href="tel:254750007617">Call now</a>
                     <Link className="cta-secondary inline-flex items-center justify-center gap-2 sm:col-span-2" to="/products">View Products</Link>
                   </div>
                 </div>

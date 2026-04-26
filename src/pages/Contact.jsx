@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
     const whatsappMessage = `Hello Roto Tanks Kenya,\n\nI would like to request a quote.\n\n*Name:* ${formData.name}\n*Phone:* ${formData.phone}\n*Email:* ${formData.email}\n*Message:* ${formData.message}`;
     const encodedMessage = encodeURIComponent(whatsappMessage);
-    window.open(`https://wa.me/254750600235?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/254750007617?text=${encodedMessage}`, '_blank');
   };
 
   const handleChange = (e) => {
@@ -45,11 +45,11 @@ const Contact = () => {
                   <p className="max-w-2xl text-base leading-7 text-white/70 sm:text-lg">The contact page is now designed like a proper conversion page, with clear channels, stronger trust cues, and a direct WhatsApp handoff.</p>
                 </div>
                 <div className="flex flex-col gap-3 sm:flex-row">
-                  <a href="https://wa.me/254750600235?text=Hello%20Roto%20Tanks%20Kenya%2C%20I%20am%20interested%20in%20buying%20a%20water%20tank.%20Please%20assist%20me%20with%20pricing%20and%20delivery%20details." target="_blank" rel="noopener noreferrer" className="cta-primary inline-flex items-center justify-center gap-2">
+                  <a href="https://wa.me/254750007617?text=Hello%20Roto%20Tanks%20Kenya%2C%20I%20am%20interested%20in%20buying%20a%20water%20tank.%20Please%20assist%20me%20with%20pricing%20and%20delivery%20details." target="_blank" rel="noopener noreferrer" className="cta-primary inline-flex items-center justify-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-message-circle h-4 w-4"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
                     Ask on WhatsApp
                   </a>
-                  <a href="tel:254750600235" className="cta-secondary inline-flex items-center justify-center gap-2 border-white/10 bg-white/10 text-white hover:bg-white/20">
+                  <a href="tel:254750007617" className="cta-secondary inline-flex items-center justify-center gap-2 border-white/10 bg-white/10 text-white hover:bg-white/20">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-phone-call h-4 w-4"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path><path d="M14.05 2a9 9 0 0 1 8 7.94"></path><path d="M14.05 6A5 5 0 0 1 18 10"></path></svg>
                     Call Our Team
                   </a>
@@ -110,22 +110,22 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="grid gap-4">
-                  <a href="tel:254750600235" className="flex items-center gap-4 rounded-[24px] border border-white/10 bg-white/10 px-4 py-4 text-white transition-colors hover:bg-white/20">
+                  <a href="tel:254750007617" className="flex items-center gap-4 rounded-[24px] border border-white/10 bg-white/10 px-4 py-4 text-white transition-colors hover:bg-white/20">
                     <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/10 text-accent">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-phone-call h-5 w-5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path><path d="M14.05 2a9 9 0 0 1 8 7.94"></path><path d="M14.05 6A5 5 0 0 1 18 10"></path></svg>
                     </div>
                     <div>
                       <div className="text-xs font-semibold uppercase tracking-[0.22em] text-white/50">Call sales</div>
-                      <div className="mt-1 text-sm font-medium text-white/80">+254 750 600235</div>
+                      <div className="mt-1 text-sm font-medium text-white/80">+254 750 007617</div>
                     </div>
                   </a>
-                  <a href="https://wa.me/254750600235?text=Hello%20Roto%20Tanks%20Kenya%2C%20I%20am%20interested%20in%20buying%20a%20water%20tank.%20Please%20assist%20me%20with%20pricing%20and%20delivery%20details." target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 rounded-[24px] border border-white/10 bg-white/10 px-4 py-4 text-white transition-colors hover:bg-white/20">
+                  <a href="https://wa.me/254750007617?text=Hello%20Roto%20Tanks%20Kenya%2C%20I%20am%20interested%20in%20buying%20a%20water%20tank.%20Please%20assist%20me%20with%20pricing%20and%20delivery%20details." target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 rounded-[24px] border border-white/10 bg-white/10 px-4 py-4 text-white transition-colors hover:bg-white/20">
                     <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/10 text-accent">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-message-circle h-5 w-5"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path></svg>
                     </div>
                     <div>
                       <div className="text-xs font-semibold uppercase tracking-[0.22em] text-white/50">WhatsApp orders</div>
-                      <div className="mt-1 text-sm font-medium text-white/80">+254 750 600235</div>
+                      <div className="mt-1 text-sm font-medium text-white/80">+254 750 007617</div>
                     </div>
                   </a>
                   <a href="mailto:rototank15@gmail.com" className="flex items-center gap-4 rounded-[24px] border border-white/10 bg-white/10 px-4 py-4 text-white transition-colors hover:bg-white/20">

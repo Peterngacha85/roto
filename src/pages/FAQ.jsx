@@ -30,7 +30,7 @@ const FAQ = () => {
     },
     {
       q: "How do I place an order?",
-      a: "Ordering is simple! You can click the 'Order on WhatsApp' button to chat with our sales team directly, or call us at +254 750 600235. We will help you choose the right size, provide a quote, and arrange delivery."
+      a: "Ordering is simple! You can click the 'Order on WhatsApp' button to chat with our sales team directly, or call us at +254 750 007617. We will help you choose the right size, provide a quote, and arrange delivery."
     }
   ];
 
@@ -53,11 +53,11 @@ const FAQ = () => {
                   <p className="max-w-2xl text-base leading-7 text-white/70 sm:text-lg">This page now feels like a practical support layer in the sales journey, making it easier to address uncertainty and move toward a confident enquiry.</p>
                 </div>
                 <div className="flex flex-col gap-3 sm:flex-row pt-2">
-                  <a className="cta-primary inline-flex items-center justify-center gap-2" href="https://wa.me/254750600235?text=Hello%20Roto%20Tanks%20Kenya%2C%20I%20am%20interested%20in%20buying%20a%20water%20tank.%20Please%20assist%20me%20with%20pricing%20and%20delivery%20details." rel="noopener noreferrer" target="_blank">
+                  <a className="cta-primary inline-flex items-center justify-center gap-2" href="https://wa.me/254750007617?text=Hello%20Roto%20Tanks%20Kenya%2C%20I%20am%20interested%20in%20buying%20a%20water%20tank.%20Please%20assist%20me%20with%20pricing%20and%20delivery%20details." rel="noopener noreferrer" target="_blank">
                     <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>
                     Ask on WhatsApp
                   </a>
-                  <a className="inline-flex items-center justify-center gap-2 rounded-full border border-white/10 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white transition duration-300 hover:bg-white/20" href="tel:254750600235">
+                  <a className="inline-flex items-center justify-center gap-2 rounded-full border border-white/10 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white transition duration-300 hover:bg-white/20" href="tel:254750007617">
                     <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                     Call Our Team
                   </a>
@@ -116,7 +116,7 @@ const FAQ = () => {
                 <p className="text-xl text-muted-foreground leading-8">The FAQ now feels more like a support tool than a generic accordion block, helping buyers move from uncertainty to action.</p>
               </div>
               
-              <a className="cta-primary inline-flex items-center gap-3 px-10 py-5 text-lg" href="https://wa.me/254750600235?text=Hello%20Roto%20Tanks%20Kenya%2C%20I%20am%20interested%20in%20buying%20a%20water%20tank.%20Please%20assist%20me%20with%20pricing%20and%20delivery%20details." rel="noopener noreferrer" target="_blank">
+              <a className="cta-primary inline-flex items-center gap-3 px-10 py-5 text-lg" href="https://wa.me/254750007617?text=Hello%20Roto%20Tanks%20Kenya%2C%20I%20am%20interested%20in%20buying%20a%20water%20tank.%20Please%20assist%20me%20with%20pricing%20and%20delivery%20details." rel="noopener noreferrer" target="_blank">
                  <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>
                  Ask on WhatsApp
               </a>
